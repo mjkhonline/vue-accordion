@@ -1,5 +1,5 @@
 {
-  "name": "vue-accordion",
+  "name": "@parsilver/vue-accordion",
   "version": "0.1.0",
   "private": false,
   "description": "A Vuejs Accordion component",
