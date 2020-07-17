@@ -3,21 +3,21 @@ A Vuejs accordion component.
 # Install
 Using npm:   
 ```bash
-$ npm i @parsilver/vue-accordion
+$ npm i vue-nice-accordion
 ```
 # Usage:
 Add the following code to your main.js
 
 ```
-import accordion from '@parsilver/vue-accordion'
-Vue.use(breadCrump);
+import accordion from 'vue-nice-accordion'
+Vue.use(accordion);
 ```
 
 Then use the component in desired .vue component like this:
 
 ```
 <template>
-  <accordion :title="FAQ" :items="items" />
+  <accordion title="FAQ" :items="items" />
 </template>
 
 <script>
