@@ -1,12 +1,23 @@
 {
   "name": "vue-accordion",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "A Vuejs Accordion component",
+  "keywords": [
+    "vuejs",
+    "vue",
+    "accordion",
+    "html",
+    "css"
+  ],
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/mjkhonline/vue-accordion.git"
+  },
+  "author": "mohammad Javad Khademian mjkhonine@live.com",
+  "license": "MIT",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "webpack --config config/webpack.config.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
